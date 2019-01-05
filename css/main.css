@@ -46,14 +46,22 @@ body{
     color: #1c1c1c;
 }
 */
+
+.nav-link{
+    color: #1c1c1c;
+}
+.nav-link:hover{
+    color: #CC0033;
+}
+
 #social_media{
-    color: #e9ebee;
+    color: #1c1c1c;
     padding-top: 1em;
 }
 
 .sm_icon{
     height: 1.5em;
-    color: #e9ebee;
+    color: #1c1c1c;
 }
 
 .svg-inline--fa.fa-w-14{
@@ -65,7 +73,7 @@ body{
 }
 
 .nav_color{
-    background-color: #1c1c1c;
+    background-color: #e9ebee;
 }
 
 #overlay {
