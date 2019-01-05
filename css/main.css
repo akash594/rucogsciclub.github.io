@@ -6,6 +6,24 @@ body{
     color: #1c1c1c;
 }
 
+#social_media{
+    color: #e9ebee;
+    padding-top: 1em;
+}
+
+.sm_icon{
+    height: 1.5em;
+    color: #e9ebee;
+}
+
+.svg-inline--fa.fa-w-14{
+    width: 2em;
+}
+
 .scrolls{
     padding-top: 3.5rem;
+}
+
+.nav_color{
+    background-color: #1c1c1c;
 }
