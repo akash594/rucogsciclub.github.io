@@ -5,7 +5,7 @@ body, html {
   }
   .bg { 
     /* The image used */
-    background-image: url("/images/photo1.jpg");
+    background-image: url("../images/photo1.jpg");
   
     /* Full height */
     height: 100%; 
@@ -80,7 +80,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0); /* Black background with opacity */
+    background-color: rgba(0, 0, 0, .7); /* Black background with opacity */
     z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
 /*    cursor: pointer; /* Add a pointer on hover */ 
   }
@@ -92,9 +92,9 @@ body{
     margin-bottom: auto;
   }
   .clear-logo {
-      width:400px;
-      height: 500px;
-      opacity: 0;
+      max-width: 450px;
+      max-height: 500px;
+      opacity: .95;
   }
 
   #logo-top{
