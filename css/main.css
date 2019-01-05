@@ -27,3 +27,45 @@ body{
 .nav_color{
     background-color: #1c1c1c;
 }
+
+.w-100{
+    opacity: .8;
+}
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    /*display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+/*    cursor: pointer; /* Add a pointer on hover */ 
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .clear-logo {
+      width: 40%;
+      height: 80%;
+      opacity: 1;
+  }
+
+  #logo-top{
+      font-size: 25px;
+      color: #CC0033;
+  }
+  #logo-bottom{
+      position: absolute;
+      font-family: 'Roboto-Light', sans-serif;
+      font-weight: 300;
+      font-size: 50px;
+      color: #e9ebee;
+      
+    }
