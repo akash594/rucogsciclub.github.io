@@ -48,20 +48,21 @@ body{
 */
 
 .nav-link{
-    color: #1c1c1c;
+    color: #e9ebee;
 }
 .nav-link:hover{
-    color: #CC0033;
+    color: #c50042;
 }
 
 #social_media{
-    color: #1c1c1c;
+    color: #e9ebee;
     padding-top: 1em;
 }
 
 .sm_icon{
-    height: 1.5em;
-    color: #1c1c1c;
+    height: 3em;
+    color: #e9ebee;
+    margin: 0px .8em;
 }
 
 .svg-inline--fa.fa-w-14{
@@ -73,7 +74,7 @@ body{
 }
 
 .nav_color{
-    background-color: #e9ebee;
+    background-color: #1c1c1c;
 }
 
 #overlay {
