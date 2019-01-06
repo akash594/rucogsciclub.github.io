@@ -64,7 +64,9 @@ body{
     color: #e9ebee;
     margin: 0px .8em;
 }
-
+.sm_icon:hover{
+    color: #c50042;
+}
 .svg-inline--fa.fa-w-14{
     width: 2em;
 }
