@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
     display: flex;
 }
 
@@ -9,15 +10,31 @@ body {
     background: #e9ebee;
     color: #161411
 }
-
+#logo{
+    font-weight: 150;
+    border: none;
+}
+h1{
+    border: firebrick solid;
+    font-weight: 2000;
+}
+h2{
+    font-weight: 2000;
+}
+ul, p{
+    font-size: 20;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 header{
-    margin-bottom: 100px;
+    margin-bottom: 8em;
 }
 .nav-link{
     color: #161411;
 }
 .nav-link:hover{
-    color: #c50042;
+    color: #e9ebee;
+    background-color: #c50042;
 }
 
 #social_media{
@@ -31,8 +48,13 @@ header{
     margin: 0px .8em;
 }
 .sm_icon:hover{
+    font-size: 1.2em;
     color: #c50042;
 }
 .svg-inline--fa.fa-w-14{
     width: 2em;
+}
+
+.about {
+    margin-left: 5%;
 }
