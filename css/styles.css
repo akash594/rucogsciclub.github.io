@@ -40,10 +40,12 @@ header{
     background-color: #c50042;
 }
 .footer{
-    padding-top: 1em;
+    margin-top:1em;
 }
+
 #social_media{
-    background-color: #e9ebee;
+    margin-top: 1em;
+    background-color: hsl(216, 13%, 92%);
     color: #161411;
 }
 
@@ -58,8 +60,4 @@ header{
 }
 .svg-inline--fa.fa-w-14{
     width: 2em;
-}
-
-.about {
-    margin-left: 5%;
 }

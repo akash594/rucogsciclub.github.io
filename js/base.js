@@ -23,14 +23,11 @@ function generate_hex(){
         return '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     }
 
-    element.setAttribute('style', 'fill: green');
-
 function triggerAnimation2(){
     new Vue({
     el: "#app",
         mounted() {
             paths = document.querySelectorAll('path')
-            console.log(paths)
             for (var i=0; i < 41; i++){
                 paths[i].setAttribute('style', 'fill:'+generate_hex());
             }
