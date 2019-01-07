@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+body {
+    position: relative;
+    margin: auto;
+    background: #e9ebee;
+    color: #161411
+}
+
+#social_media{
+    color: #161411;
+    padding-top: 2em;
+}
+
+.sm_icon{
+    height: 4em;
+    color: #161411;
+    margin: 0px .8em;
+}
+.sm_icon:hover{
+    color: #c50042;
+}
+.svg-inline--fa.fa-w-14{
+    width: 2em;
+}
