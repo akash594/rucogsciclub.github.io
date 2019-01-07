@@ -10,6 +10,16 @@ body {
     color: #161411
 }
 
+header{
+    margin-bottom: 60px;
+}
+.nav-link{
+    color: #161411;
+}
+.nav-link:hover{
+    color: #c50042;
+}
+
 #social_media{
     color: #161411;
     padding-top: 2em;
