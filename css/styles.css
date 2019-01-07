@@ -14,10 +14,7 @@ body {
     font-weight: 150;
     border: none;
 }
-h1{
-    border: firebrick solid;
-    font-weight: 2000;
-}
+
 h2{
     font-weight: 2000;
 }
@@ -29,26 +26,34 @@ ul, p{
 header{
     margin-bottom: 8em;
 }
+.fixed-top{
+    border: solid .5px;
+}
 .nav-link{
     color: #161411;
+}
+.nav_color{
+    background-color: #e9ebee;
 }
 .nav-link:hover{
     color: #e9ebee;
     background-color: #c50042;
 }
-
+.footer{
+    padding-top: 1em;
+}
 #social_media{
+    background-color: #e9ebee;
     color: #161411;
-    padding-top: 2em;
 }
 
 .sm_icon{
-    height: 4em;
+    height: 3em;
     color: #161411;
     margin: 0px .8em;
 }
 .sm_icon:hover{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #c50042;
 }
 .svg-inline--fa.fa-w-14{
