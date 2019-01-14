@@ -23,7 +23,7 @@ function generate_hex(){
         return '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     }
 
-function triggerAnimation2(){
+function reanimate(){
     new Vue({
     el: "#app",
         mounted() {
@@ -38,3 +38,7 @@ function triggerAnimation2(){
         },
     });
 }
+
+$('#header').scrollspy({
+    offset: 10
+  });

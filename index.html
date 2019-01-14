@@ -12,8 +12,9 @@
 
 </head>
 
-<body onload='triggerAnimation()'>
+<body onload='triggerAnimation()' data-spy='scroll'>
         <header>
+            <a class="header" href="#header"></a>
             <nav id="scroll-nav" class="navbar fixed-top navbar-dark fixed-top nav_color">
                 <a class="navbar-brand" href="index.html"><img style="height: 3em; padding-right: 1em" src="./images/logoClearBackground.png"></a>
                 <div class="mx-auto" id="Name">
@@ -23,7 +24,7 @@
                 </div>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Events</a>
@@ -41,7 +42,7 @@
         <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         width ="500px" height="500px" viewBox="0 0 4096 4096" style="enable-background:new 0 0 4000 4000;" xml:space="preserve"
-        id = "animated-brain" onclick="triggerAnimation2()">
+        id = "animated-brain" onclick="reanimate()">
         <style>
                 svg { 
                     cursor: pointer; 
@@ -106,7 +107,7 @@
     </svg>
 
     <hr>
-    <h1 class='text-center'><b>About</b></h1>
+    <h1 class='text-center' id="about"><b>About</b></h1>
     <hr>
     <div class="container">
         <div class="row">
