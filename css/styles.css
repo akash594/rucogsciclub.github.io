@@ -28,7 +28,7 @@ header{
     margin-bottom: 8em;
 }
 .fixed-top{
-    border: solid .5px;
+    border-bottom: solid .5px;
 }
 .nav-link{
     color: #161411;
