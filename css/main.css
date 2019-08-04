@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto-Light", sans-serif;
   font-weight: 300;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 a {
@@ -40,11 +40,20 @@ h1, h2, h4 {
 
 .text-card {
   padding: 1em;
-  margin: 4em 1em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   line-height: 1.5;
 }
 .text-card ul {
   line-height: 2;
+}
+
+.text-card-right {
+  margin-left: 4em;
+}
+
+.text-card-right {
+  margin-right: 4em;
 }
 
 .container {
@@ -55,11 +64,10 @@ h1, h2, h4 {
 .content-row {
   color: black;
   padding: 12px;
-  height: 12em;
   border-radius: 4px;
   border: solid 1px black;
   background-color: #D2003B;
-  box-shadow: 10px 10px black, 11px 11px 0px 2px #D2003B;
+  box-shadow: 9px 9px black, 10px 10px 0px 2px #D2003B;
 }
 .content-row .content-card {
   border-radius: 4px;
@@ -128,6 +136,12 @@ h1, h2, h4 {
 .social {
   padding: 4px;
   margin: 5%;
+}
+.social .icon {
+  color: black;
+}
+.social .icon:hover {
+  color: #D2003B;
 }
 
 /* GLOBAL STYLES
