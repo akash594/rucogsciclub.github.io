@@ -73,11 +73,12 @@ h1, h2, h4 {
 }
 .content-row .content-card {
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 .content-row .content-card:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  border: solid 0.5px black;
   color: white;
+  border: 1px solid #222222;
 }
 .content-row img {
   border-radius: 4px;
@@ -93,7 +94,7 @@ h1, h2, h4 {
 }
 
 .image-overlay-left {
-  width: 100%;
+  width: 110%;
   height: 100%;
   margin-top: 25%;
   margin-left: 10%;
@@ -125,8 +126,9 @@ h1, h2, h4 {
 
 .button:hover {
   cursor: pointer;
-  color: #D2003B;
-  border: solid 3px white;
+  color: black;
+  background-color: white;
+  border: solid 3px #D2003B;
 }
 
 .social-media {

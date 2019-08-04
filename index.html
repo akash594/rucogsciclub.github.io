@@ -33,10 +33,11 @@
                     width="75px" height="75px" viewBox="0 0 4096 4096" style="enable-background:new 0 0 4000 4000;" xml:space="preserve"
                     id="animated-brain" onclick="reanimate()">
                     <style>
-                            svg { 
+                            #animated-brain { 
                                 cursor: pointer; 
                                 margin: auto;
                                 display:block;
+                                visibility: hidden;
                                 }
                     </style>
     
@@ -120,7 +121,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Get Involved</a>
+                        <a class="nav-link" href="#" style="border:solid 1px #222222;border-radius:4px;text-align:center">Get Involved</a>
                     </li>
                 </ul>
             </div>
@@ -197,9 +198,9 @@
                     <li id="event2">Event 2</li>
                     <li id="event3">Event 3</li>
                 </ul>
-                <div class="button">
+                <a class="button" href="https://forms.gle/rzsCQyNd8uLMLjc18" target="_blank">
                     SUGGEST AN EVENT
-                </div>
+                </a>
             </div>
         </div>
     </div>

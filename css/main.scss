@@ -66,14 +66,15 @@ h1, h2, h4 {
     border: solid 1px black;
     background-color: #D2003B;
     box-shadow:  9px 9px black, 10px 10px 0px 2px #D2003B;
-    
+
     .content-card {
         border-radius: 4px;
+        border: 1px solid transparent;
     }
     .content-card:hover {
         background-color: rgba(255, 255, 255, 0.3);
-        border: solid 0.5px black;
         color: white;
+        border: 1px solid #222222;
     }
 
     img {
@@ -91,7 +92,7 @@ h1, h2, h4 {
     background-color: #D2003B; 
 }
 .image-overlay-left {
-    width: 100%;
+    width: 110%;
     height: 100%;
     margin-top: 25%;
     margin-left: 10%;
@@ -122,8 +123,9 @@ h1, h2, h4 {
 }
 .button:hover {
     cursor: pointer;
-    color: #D2003B;
-    border: solid 3px white;
+    color: black;
+    background-color: white;
+    border: solid 3px #D2003B;
 }
 
 .social-media {
@@ -132,7 +134,6 @@ h1, h2, h4 {
 .social {
     padding: 4px;
     margin: 5%;
-
     .icon {
         color: black;
     }
@@ -140,6 +141,7 @@ h1, h2, h4 {
         color: #D2003B;
     }
 }
+
 /* GLOBAL STYLES
 body, html {
     height: 100%;

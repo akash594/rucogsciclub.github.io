@@ -1,9 +1,10 @@
-window.onload = function (){
+$(document).ready(function (){
+    $('svg').css('visibility','visible')
     TweenMax.set(`.polygons path`, { scale: 0, opacity: 0, transformOrigin: '50% 50%' })
     TweenMax.staggerTo(`.polygons path`, 0.25, {
         scale: 1, opacity: 1, ease: Back.easeOut.config(0.7)
     }, 0.03);
-}
+});
 
 function generate_hex(){
         return '#'+(Math.random()*0xFFFFFF<<0).toString(16);
