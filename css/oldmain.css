@@ -1,0 +1,120 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body, html {
+    height: 100%;
+  }
+  .bg { 
+    /* The image used */
+    background-image: url("../images/photo1.jpg");
+    opacity: .8;
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*
+body:before {
+    content: '';
+    background-image: url('/images/photo1.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    body:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
+    }
+/*
+body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #1c1c1c;
+}
+*/
+
+.nav-link{
+    color: #e9ebee;
+}
+.nav-link:hover{
+    color: #c50042;
+}
+
+#social_media{
+    color: #e9ebee;
+    padding-top: 1em;
+}
+
+.sm_icon{
+    height: 3em;
+    color: #e9ebee;
+    margin: 0px .8em;
+}
+.sm_icon:hover{
+    color: #c50042;
+}
+.svg-inline--fa.fa-w-14{
+    width: 2em;
+}
+
+.scrolls{
+    padding-top: 3.5rem;
+}
+
+.nav_color{
+    background-color: #1c1c1c;
+}
+
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    /*display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117, 110, 110, 0.75); /* Black background with opacity */
+    z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+/*    cursor: pointer; /* Add a pointer on hover */ 
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+
+  #logo{
+    background-color: rgba(233,235,238, 0.5);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    color: #000000;
+    }
+
+    #h1 span.border{
+        background-color: black;
+    }

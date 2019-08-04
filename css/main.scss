@@ -1,135 +1,132 @@
-body {
-  font-family: "Roboto-Light", sans-serif;
-  font-weight: 300;
-  color: white;
-  background-color: black;
+body {   
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: black;
 }
 
 a {
-  color: white;
+    color: white;
 }
 
 h1, h2, h4 {
-  font-weight: 300;
-  line-height: 1.5;
-  padding: 8px;
-  letter-spacing: 1.5px;
-  overflow: visible;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 8px;
+    letter-spacing: 1.5px;
+    overflow: visible;
 }
 
 #club-logo {
-  padding: 8px;
-  margin: 12px;
+    padding: 8px;
+    margin: 12px;
 }
 
 .navbar-wrapper {
-  width: 100%;
+    width: 100%;
 }
-
 #navbar-header {
-  width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 .center-content {
-  top: 50%;
-  align-items: center;
-  justify-content: center;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-card {
-  padding: 1em;
-  margin: 4em 1em;
-  line-height: 1.5;
-}
-.text-card ul {
-  line-height: 2;
-}
+    padding: 1em;
+    margin: 4em 1em;
+    line-height: 1.5;
 
+    ul {
+        line-height: 2;
+    }
+}
 .container {
-  margin-top: 4em;
-  margin-bottom: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.content-row {
+    color: black;
+    padding: 12px;
+    height: 12em;
+    border-radius: 4px;
+    border: solid 1px black;
+    background-color: #D2003B;
+    box-shadow:  10px 10px black, 11px 11px 0px 2px #D2003B ;
+    
+    .content-card {
+        border-radius: 4px;
+    }
+    .content-card:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: solid 0.5px black;
+        color: white;
+    }
+
+    img {
+        border-radius: 4px;
+        margin: 8px 0px 16px 0px;
+    }
 }
 
-.content-row {
-  color: black;
-  padding: 12px;
-  height: 12em;
-  border-radius: 4px;
-  border: solid 1px black;
-  background-color: #D2003B;
-  box-shadow: 10px 10px black, 11px 11px 0px 2px #D2003B;
-}
-.content-row .content-card {
-  border-radius: 4px;
-}
-.content-row .content-card:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  border: solid 0.5px black;
-  color: white;
-}
-.content-row img {
-  border-radius: 4px;
-  margin: 8px 0px 16px 0px;
-}
 
 .image-card-left {
-  position: absolute;
-  z-index: -1;
-  width: 50%;
-  height: 100%;
-  background-color: #D2003B;
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background-color: #D2003B; 
 }
-
 .image-overlay-left {
-  width: 100%;
-  height: 100%;
-  margin-top: 25%;
-  margin-left: 10%;
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+    margin-left: 10%;
 }
 
 .image-card-right {
-  margin-left: 50%;
-  position: absolute;
-  z-index: -1;
-  width: 50%;
-  height: 100%;
-  background-color: #D2003B;
+    margin-left: 50%;
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    background-color: #D2003B; 
 }
 
 .image-overlay-right {
-  width: 100%;
-  height: 100%;
-  margin-top: 20%;
-  margin-right: 20%;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    margin-right: 20%;
 }
 
 .button {
-  padding: 12px;
-  width: 50%;
-  height: 18%;
-  background-color: black;
-  color: white;
-  border: solid 3px #D2003B;
-  text-align: center;
+    padding: 12px;
+    width: 50%;
+    height: 18%;
+    background-color: black;
+    color: white;
+    border: solid 3px #D2003B;
+    text-align: center;
 }
-
 .button:hover {
-  cursor: pointer;
-  color: #D2003B;
-  border: solid 3px white;
+    cursor: pointer;
+    color: #D2003B;
+    border: solid 3px white;
 }
 
 .social-media {
-  padding: 4px;
+    padding: 4px;
 }
-
 .social {
-  padding: 4px;
-  margin: 5%;
+    padding: 4px;
+    margin: 5%;
 }
-
 /* GLOBAL STYLES
 body, html {
     height: 100%;
@@ -138,7 +135,7 @@ body, html {
     background-image: url("../images/photo1.jpg");
     opacity: .8;
     height: 100%; 
-
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +153,7 @@ body:before {
     top: 0;
     left: 0;
     }
-
+    
     body:after {
     content: '';
     height: 100%;
@@ -245,5 +242,3 @@ body{
         background-color: black;
     }
     */
-
-/*# sourceMappingURL=main.css.map */
