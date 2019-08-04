@@ -2,7 +2,7 @@ body {
   font-family: "Roboto-Light", sans-serif;
   font-weight: 300;
   color: black;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #f8f9fa !important;
 }
 
 a {
@@ -22,12 +22,7 @@ h1, h2, h4 {
   margin: 12px;
 }
 
-.navbar-wrapper {
-  width: 100%;
-}
-
 #navbar-header {
-  width: 100%;
   position: sticky;
   position: -webkit-sticky;
 }
@@ -115,8 +110,6 @@ h1, h2, h4 {
 
 .button {
   padding: 12px;
-  width: 50%;
-  height: 18%;
   background-color: black;
   color: white;
   border: solid 3px #D2003B;
