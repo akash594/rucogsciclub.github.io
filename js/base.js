@@ -58,3 +58,27 @@ jQuery('img.svg').each(function(){
     }, 'xml');
 
 });
+
+//Handle Mailchimp form submission
+$('#email-signup').submit(function(e) {
+    e.preventDefault();
+    var data = $(this).serialize();
+    
+    $.ajax({
+        type: "POST",
+        url: "https://us17.api.mailchimp.com/3.0/lists/413109bd84/members/",
+        data: {
+            "email_address": data['email'],
+            "merge_fields": {
+                "NAME": data['name'],
+                "MMERGE6": data['grad_year']
+            }
+        }, 
+        success:function(response) {
+            console.log(response);
+            $('input').val('');
+            $('.submit-form').text('Thank you for signing up!');
+        }
+    });
+
+});
