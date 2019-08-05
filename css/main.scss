@@ -92,14 +92,13 @@ h1, h2, h4 {
     background-color: #D2003B; 
 }
 .image-overlay-left {
-    width: 110%;
-    height: 100%;
+    width: 100%;
     margin-top: 25%;
     margin-left: 10%;
 }
 
 .image-card-right {
-    margin-left: 50%;
+    margin-left: 47%;
     position: absolute;
     z-index: -1;
     width: 50%;
@@ -109,13 +108,13 @@ h1, h2, h4 {
 
 .image-overlay-right {
     width: 100%;
-    height: 100%;
     margin-top: 20%;
     margin-right: 20%;
 }
 
 .button {
-    padding: 12px;
+    margin: 8px;
+    padding: 8px;
     background-color: black;
     color: white;
     border: solid 3px #D2003B;
