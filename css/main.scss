@@ -141,6 +141,38 @@ h1, h2, h4 {
     }
 }
 
+.step-x {
+    background-color: #D2003B;
+    border-radius: 50%;
+    text-align: center;
+    height: 50%;
+    flex-grow: 0;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #D2003B;
+    background: transparent;
+    color: black;
+    margin-left: 2%;
+    width: 50%;
+
+    font-family: 'Roboto-Light', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-weight: 300;
+}
+
+input[type="submit"] {
+    width: 25%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#dots-svg {
+    top: 0%;
+    right: 0%;
+}
 /* GLOBAL STYLES
 body, html {
     height: 100%;
