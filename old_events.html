@@ -1,0 +1,107 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src='js/base.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Mono:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+
+</head>
+
+<header>
+    <nav id="scroll-nav" class="navbar fixed-top navbar-dark fixed-top nav_color">
+        <a class="navbar-brand" href="index.html"><img style="height: 3em; padding-right: 1em" src="./images/logoClearBackground.png"></a>
+        <div class="mx-auto" id="Name">
+            <div class="container">
+                <h1 class="row text-center" id="logo"> <span style="color: #b40606;"> <b>RUTGERS</b></span><br>Cognitive Science Club</h1>
+            </div>
+        </div>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="events.html" style="background-color:#c50042; color: #e9ebee;">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="people.html">People</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="text-center" id="events">
+        <div class="container scrolls">
+            <h1>Events</h1>
+            <hr>
+        </div>
+    </div>
+    
+    <div class="container events-1">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-4">
+                <div class="row">
+                    <h2>Upcoming Events:</h2>
+                    <p>This semester we'll be running events a bit different than previous semesters.</p>
+                    <p>The data science bootcamp will still be every Monday in room 1125 in the West Wing of the Academic Building, on College Ave Campus.</p>
+                    <p>However, we are now scheduling speakers every <i>other</i> Wednesday, starting February 3rd.
+                        The weeks in between will be reserved for open e-board meetings and office/advising hours, where you can get advice 
+                        or academic help from a peer. </p>
+                </div>
+                <div class="row">
+                    <p>.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6">
+                <iframe 
+                    src="https://calendar.google.com/calendar/embed?src=rutgerscognitivescienceclub%40gmail.com&ctz=America%2FNew_York" 
+                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+      <footer class="footer container container-table text-center">
+        <div id="social_media" class="navbar">
+                <div class="mx-auto row">
+                    <!-- PUT SOCIAL MEDIA ICONS HERE -->
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.facebook.com/RUCogSciClub/">
+                            <i class="sm_icon about fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.instagram.com/ru_cogsciclub/">
+                            <i class="sm_icon about fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://rutgerscogsci.slack.com">
+                            <i class="sm_icon about fab fa-slack"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.linkedin.com/company/rutgers-cognitive-science-club">
+                            <i class="sm_icon about fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://twitter.com/rucogsci">
+                            <i class="sm_icon about fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="mailto:rutgerscognitivescienceclub@gmail.com">
+                            <i class="sm_icon about fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

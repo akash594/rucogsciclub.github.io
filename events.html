@@ -1,107 +1,214 @@
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-    <script src='js/base.js'></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Mono:700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+        <!-- Our js / css -->
+        <script src="js/base.js"></script>
+        <link rel="stylesheet" href="css/main.css">
 
 </head>
 
-<header>
-    <nav id="scroll-nav" class="navbar fixed-top navbar-dark fixed-top nav_color">
-        <a class="navbar-brand" href="index.html"><img style="height: 3em; padding-right: 1em" src="./images/logoClearBackground.png"></a>
-        <div class="mx-auto" id="Name">
-            <div class="container">
-                <h1 class="row text-center" id="logo"> <span style="color: #b40606;"> <b>RUTGERS</b></span><br>Cognitive Science Club</h1>
-            </div>
-        </div>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="events.html" style="background-color:#c50042; color: #e9ebee;">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="people.html">People</a>
-            </li>
-        </ul>
-    </nav>
-</header>
 
 <body>
-    <div class="text-center" id="events">
-        <div class="container scrolls">
-            <h1>Events</h1>
-            <hr>
-        </div>
-    </div>
-    
-    <div class="container events-1">
-        <div class="row">
-            <div class="col-md-4 col-lg-4 col-sm-4">
-                <div class="row">
-                    <h2>Upcoming Events:</h2>
-                    <p>This semester we'll be running events a bit different than previous semesters.</p>
-                    <p>The data science bootcamp will still be every Monday in room 1125 in the West Wing of the Academic Building, on College Ave Campus.</p>
-                    <p>However, we are now scheduling speakers every <i>other</i> Wednesday, starting February 3rd.
-                        The weeks in between will be reserved for open e-board meetings and office/advising hours, where you can get advice 
-                        or academic help from a peer. </p>
-                </div>
-                <div class="row">
-                    <p>.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-sm-6">
-                <iframe 
-                    src="https://calendar.google.com/calendar/embed?src=rutgerscognitivescienceclub%40gmail.com&ctz=America%2FNew_York" 
-                    style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
-                </iframe>
-            </div>
-        </div>
-    </div>
+    <nav class="navbar sticky-top navbar-fixed-top navbar-expand-lg navbar-light bg-light" id="navbar-header">
+            <div class="navbar-brand">
+                    <!-- <img src="images/logoClearBackground.png" aria-label="Club Logo" width="50px"; height="50px" style="margin-right:4px;"> -->
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="75px" height="75px" viewBox="0 0 4096 4096" style="enable-background:new 0 0 4000 4000;" xml:space="preserve"
+                    id="animated-brain" onclick="reanimate()">
+                    <style>
+                            #animated-brain {
+                                cursor: pointer;
+                                margin: auto;
+                                display:block;
+                                visibility: hidden;
+                                }
+                    </style>
 
-      <footer class="footer container container-table text-center">
-        <div id="social_media" class="navbar">
-                <div class="mx-auto row">
-                    <!-- PUT SOCIAL MEDIA ICONS HERE -->
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="https://www.facebook.com/RUCogSciClub/">
-                            <i class="sm_icon about fab fa-facebook-square"></i>
+                    <defs>
+                        <filter id="polycleaner" color-interpolation-filters="sRGB">
+                            <feComponentTransfer>
+                            <feFuncA type="table" tableValues="0 0.5 1 1" />
+                            </feComponentTransfer>
+                        </filter>
+                    </defs>
+
+                    <g filter="url(#polycleaner)" class="polygons">
+                            <path fill="#C1ECAF" d="M1333.5 2292.1L1333.4 2291.8 1333.2 2292.1 1333.5 2292.1z"/>
+                            <path fill="#7C0C6C" d="M1333.2 2292.1L885.6 2323 1118.1 2501.1 1333.2 2292.1z"/>
+                            <path fill="#BD4D10" d="M1333.5 2292.1L1333.2 2292.1 1118.1 2501.1 1434.6 2609.1 1333.5 2292.1z"/>
+                            <path fill="#FE941D" d="M2074.3 2622L1336.9 2291.8 1333.5 2292.1 1434.6 2609.1 1793.1 2622 2074.3 2622z"/>
+                            <path fill="#6650BF" d="M3260.7 1504.3L3743.6 1264.6 3216.2 742.6 3260.7 1504.3z"/>
+                            <path fill="#3F3606" d="M2738.3 1457.2L3075.7 2078.4 3260.7 1504.3 3216.2 742.6 2738.3 1457.2z"/>
+                            <path fill="#74D9A2" d="M2738.3 1457.2L2273.3 2024 2656.7 2535.6 2738.3 1457.2z"/>
+                            <path fill="#BAEE39" d="M2738.3 1457.2L2656.7 2535.6 3075.7 2078.4 2738.3 1457.2z"/>
+                            <path fill="#178D1D" d="M3260.7 1504.3L3075.7 2078.4 3743.6 1264.6 3260.7 1504.3z"/>
+                            <path fill="#5E3FB5" d="M1712.4 898.3L1459.4 1009 1883.9 1504.3 1712.4 898.3z"/>
+                            <path fill="#26EEF3" d="M2738.3 1457.2L3216.2 742.6 2423.1 508.7 2738.3 1457.2z"/>
+                            <path fill="#0577F8" d="M1459.4 1009L790 1357.3 1883.9 1504.3 1459.4 1009z"/>
+                            <path fill="#B78160" d="M2656.7 2535.6L2994.1 2682.5 3075.7 2078.4 2656.7 2535.6z"/>
+                            <path fill="#2B77BE" d="M2423.1 3198.6L2608.9 3447.4 2624 3114.9 2423.1 3198.6z"/>
+                            <path fill="#ED7AA3" d="M2246.1 2961.4L2423.1 3198.6 2624 3114.9 2246.1 2961.4z"/>
+                            <path fill="#C82714" d="M2423.1 3198.6L2423.1 3198.6 2328.6 3656.7 2608.9 3447.4 2423.1 3198.6z"/>
+                            <path fill="#E61CE0" d="M2423.1 3198.6L2423.1 3198.6 2246.1 2961.4 2328.6 3656.7 2423.1 3198.6z"/>
+                            <path fill="#16ABE3" d="M3075.7 2078.4L4006.8 1613.8 3743.6 1264.6 3075.7 2078.4z"/>
+                            <path fill="#12C445" d="M1712.4 898.3L1883.9 1504.3 2423.1 508.7 1712.4 898.3z"/>
+                            <path fill="#1CD334" d="M3075.7 2078.4L4048 2153.4 4006.8 1613.8 3075.7 2078.4z"/>
+                            <path fill="#9DFCF9" d="M2738.3 1457.2L1883.9 1504.3 2273.3 2024 2738.3 1457.2z"/>
+                            <path fill="#142C6E" d="M1883.9 1504.3L2738.3 1457.2 2423.1 508.7 1883.9 1504.3z"/>
+                            <path fill="#7B52EF" d="M2656.7 2535.6L2074.3 2622 2246.1 2961.4 2656.7 2535.6z"/>
+                            <path fill="#C49A64" d="M2994.1 2682.5L2246.1 2961.4 2624 3114.9 2994.1 2682.5z"/>
+                            <path fill="#4843A5" d="M1883.9 1504.3L1337 2286.6 1336.9 2291.8 1337 2286.6 1333.4 2291.8 2074.3 2622 1883.9 1504.3z"/>
+                            <path fill="#50E1C1" d="M2656.7 2535.6L2273.3 2024 2273.3 2024 2074.3 2622 2656.7 2535.6z"/>
+                            <path fill="#C65C1F" d="M2273.3 2024L2273.3 2024 1883.9 1504.3 2074.3 2622 2273.3 2024z"/>
+                            <path fill="#18E45E" d="M2994.1 2682.5L2656.7 2535.6 2246.1 2961.4 2994.1 2682.5z"/>
+                            <path fill="#AA35B3" d="M3075.7 2078.4L2994.1 2682.5 3750.3 2649.6 3075.7 2078.4z"/>
+                            <path fill="#8989E9" d="M4048 2153.4L3075.7 2078.4 3750.3 2649.6 4048 2153.4z"/>
+                            <path fill="#F5E1F5" d="M2994.1 2682.5L2624 3114.9 3158.7 3030.2 2994.1 2682.5z"/>
+                            <path fill="#9049EC" d="M2994.1 2682.5L3158.7 3030.2 3750.3 2649.6 2994.1 2682.5z"/>
+                            <path fill="#5BA697" d="M1712.4 898.3L2423.1 508.7 1297.7 439.3 1712.4 898.3z"/>
+                            <path fill="#7C40EA" d="M790 1357.3L1297.7 439.3 158.5 1021.1 790 1357.3z"/>
+                            <path fill="#6A1C43" d="M790 1357.3L158.5 1021.1 48 1457.2 790 1357.3z"/>
+                            <path fill="#455CE4" d="M790 1357.3L365 2358.3 1333.4 2291.8 790 1357.3z"/>
+                            <path fill="#A4D1E0" d="M790 1357.3L48 1457.2 365 2358.3 790 1357.3z"/>
+                            <path fill="#006E6F" d="M1459.4 1009L1712.4 898.3 1297.7 439.3 1459.4 1009z"/>
+                            <path fill="#5B4174" d="M1337 2286.6L1346.7 1834.2 1346.7 1834.2 790 1357.3 1333.4 2291.8 1337 2286.6z"/>
+                            <path fill="#B2EE27" d="M790 1357.3L1346.7 1834.2 1346.7 1834.2 1346.8 1829.1 1346.7 1834.2 1883.9 1504.3 790 1357.3z"/>
+                            <path fill="#0F2548" d="M1346.7 1834.2L1337 2286.6 1883.9 1504.3 1346.7 1834.2z"/>
+                            <path fill="#E0E8B4" d="M790 1357.3L1459.4 1009 1297.7 439.3 790 1357.3z"/>
+                    </g>
+                </svg>
+                <a href="index.html">
+                    <span style="font-weight:700">Rutgers</span>
+                    Cognitive Science Club
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programs
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="https://www.instagram.com/ru_cogsciclub/">
-                            <i class="sm_icon about fab fa-instagram"></i>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Mentorship</a>
+                            <a class="dropdown-item" href="#">Hackerspace</a>
+                            <a class="dropdown-item" href="#">Conference Planning</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="get_involved.html" style="border:solid 1px #222222;border-radius:4px;text-align:center">Get Involved</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <hr>
+    <h1 style="margin-left:10%;margin-bottom:0px;"> Events </h1>
+    <div class="container" >
+            <div class="row">
+                <div class="col-md text-card text-card-left">
+                    <h2>Upcoming Events</h2>
+                    <span class="col-xs">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="https://rutgerscogsci.slack.com">
-                            <i class="sm_icon about fab fa-slack"></i>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="https://www.linkedin.com/company/rutgers-cognitive-science-club">
-                            <i class="sm_icon about fab fa-linkedin"></i>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="https://twitter.com/rucogsci">
-                            <i class="sm_icon about fab fa-twitter-square"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2">
-                        <a href="mailto:rutgerscognitivescienceclub@gmail.com">
-                            <i class="sm_icon about fas fa-envelope-square"></i>
-                        </a>
-                    </div>
+                      </div>
+                    </span>
                 </div>
             </div>
         </div>
-    </footer>
+
+    <hr>
+
+    <div class="container" >
+            <div class="row">
+                <div class="col-md text-card text-card-left">
+                    <h2>Previous Events</h2>
+                    <span class="col-xs">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Event Name</h5>
+                            <small>Event date</small>
+                          </div>
+                          <p class="mb-1">Short event description...</p>
+                          <small>Any additional info...</small>
+                        </a>
+                      </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
 </body>
+<footer class="footer container container-table text-center">
+        <div class="row social-media">
+                <div class="social"><a href="https://www.facebook.com/RUCogSciClub/" target="_blank"><i class="fab fa-2x fa-facebook icon"></i></a></div>
+                <div class="social"><a href="https://www.instagram.com/ru_cogsci/" target="_blank"><i class="fab fa-2x fa-instagram icon"></i></a></div>
+                <div class="social"><a href="https://twitter.com/rucogsci" target="_blank"><i class="fab fa-2x fa-twitter icon"></i></a></div>
+                <div class="social"><a href="https://join.slack.com/t/rutgerscogsci/shared_invite/enQtNzA5MTM3NDY0Nzg1LWNlZWQ1ZjNhMjE0ODM5MDA5NzQxNDJjZGUyNTQxZTE2OTQ2MDg2YzJmN2QzODVhODM4YzBiYTBjNWZhYTAxOTA" target="_blank"><i class="fab fa-2x fa-slack icon"></i></a></div>
+                <div class="social"><a href="mailto:rucogsciclub@gmail.com"><i class="fas fa-2x fa-envelope icon"></i></a></div>
+                <div class="social"><a href="https://www.linkedin.com/company/11817239/" target="_blank"><i class="fab fa-2x fa-linkedin icon"></i></a></div>
+            </div>
+</footer>
