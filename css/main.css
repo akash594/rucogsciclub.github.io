@@ -85,6 +85,11 @@ h1, h2, h4 {
   margin: 8px 0px 16px 0px;
 }
 
+.jumbotron {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 .image-card-left {
   position: absolute;
   z-index: -1;
@@ -186,10 +191,10 @@ input[type=submit] {
 body, html {
     height: 100%;
   }
-  .bg { 
+  .bg {
     background-image: url("../images/photo1.jpg");
     opacity: .8;
-    height: 100%; 
+    height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -258,17 +263,17 @@ body{
 }
 
 #overlay {
-    position: absolute; 
-    /*display: none; 
-    width: 100%; 
+    position: absolute;
+    /*display: none;
+    width: 100%;
     height: 100%;
-    top: 0; 
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(117, 110, 110, 0.75);
-    z-index: -1; 
-/*    cursor: pointer; 
+    z-index: -1;
+/*    cursor: pointer;
   }
   .center {
     display: block;
