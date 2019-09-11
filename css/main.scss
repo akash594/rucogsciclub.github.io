@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto-Light', sans-serif;
     font-weight: 300;
     color: black;
-    background-color: #f8f9fa!important;
+    background-color: white!important;
 }
 a {
     color: black;
@@ -125,6 +125,13 @@ h1, h2, h4 {
     color: black;
     background-color: white;
     border: solid 3px #D2003B;
+}
+
+.button-link {
+    color: white;
+}
+.button-link:hover{
+    color: black;
 }
 
 .social-media {
