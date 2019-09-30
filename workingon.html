@@ -1,0 +1,309 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src='js/base.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto+Mono:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+<!-- added my code here -->
+
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> People </title>
+
+
+<!-- ended added my code here -->
+
+
+
+    <style>
+    	<!-- Added my code here-->
+		
+html,body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+.centered-wrapper{
+	position: relative;
+	text-align:center;
+}
+
+
+
+<!-- flex box -->
+.parent{
+	background-color: #f073e1;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	flex-direction:row;
+	margin: 10px;
+	padding: 30px;
+
+}
+
+.m1{
+	background-color:#c50042;
+	margin:5px;
+	width: 150px;
+	font-size:30px;
+
+}
+
+.m2{
+	background-color:#c50042;
+	margin: 5px ;
+	width: 150px;
+	font-size:30px;
+
+}
+
+.m3{
+	background-color:#c50042;
+	margin: 5px;
+	width: 150px;
+	font-size:30px;
+	
+}
+
+.m4{
+	background-color:#c50042;
+	margin: 5px;
+	width:150px;
+	font-size:30px;
+	
+}
+
+.m5{
+	background-color:#c50042;
+	margin: 5px;
+	width:150px;
+	font-size:30px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.hvrbox, .hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+		
+		
+		
+		
+		
+		
+		
+		<!-- end Added my code -->
+
+
+    </style>
+
+
+</head>
+
+<header>
+    <nav id="scroll-nav" class="navbar fixed-top navbar-dark fixed-top nav_color">
+        <a class="navbar-brand" href="/"><img style="height: 3em; padding-right: 1em" src="./images/logoClearBackground.png"></a>
+        <div class="mx-auto" id="Name">
+            <div class="container">
+                <h1 class="row text-center" id="logo"> <span style="color: #b40606;"> <b>RUTGERS</b></span><br><br> <br>Cognitive Science Club</h1>
+            </div>
+        </div>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+               <a class="nav-link dropbtn" href="index.html#about">About</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="people.html"  style="background-color:#c50042; color: #e9ebee;">People</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body class = "centered-wrapper"> <!-- I modified this body tag -->
+    <div class="text-center" id="events">
+        <div class="container scrolls">
+		        <!-- started here (this pages is under construction-->
+		<br>
+		<br>
+		<br>
+          <h1>People</h1>
+  
+        
+		<br>
+		<br>
+		<br>
+		 <hr>
+		 <h4 style = "text-align: center;"> Summary: </h4>
+		 <br>
+		<br>
+		<br>
+		<hr>
+<div class = "parent">
+
+
+	<!-- member1 photo-->
+	<div class="m1 card hvrbox">
+	<img src="person1.jpg" alt="person1" class="hvrbox-layer_bottom" style = "width:150px; height:150px;float:right;">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text"><p>About Me: </p>
+			<p>Other text </p>
+		</div>
+	</div>
+</div>
+			
+<!-- member2 -->
+
+	
+		<div class = "m2 card hvrbox">
+	<img src="person2.jpg" alt="person2" class="hvrbox-layer_bottom" style = "width:150px; height:150px; float:left;">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text"><p>About Me: </p>
+			<p>Other text </p>
+		</div>
+	</div>
+</div>
+
+<!-- member3 photo-->
+	
+		<div class = "m3 card hvrbox">			
+	<img src="person3.jpg" alt="person3" class="hvrbox-layer_bottom" style = "width:150px; height:150px; float:left;">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text"><p>About Me: </p>
+			<p>Other text </p>
+		</div>
+	</div>
+</div>
+
+<!-- member4 photo-->
+	
+		<div class = "m4 card hvrbox">
+	<img src="person4.jpg" alt="person4" class="hvrbox-layer_bottom" style = "width:150px; height:150px; float:left;">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text"><p>About Me: </p>
+			<p>Other text </p>
+		</div>
+	</div>
+	
+	
+</div>
+</div>
+</div>
+</div>
+</div>
+          	<!-- ended here (this pages is under construction-->
+        </div>
+    </div>
+    <footer class="footer container container-table text-center">
+        <div id="social_media" class="navbar">
+                <div class="mx-auto row">
+                    <!-- PUT SOCIAL MEDIA ICONS HERE -->
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.facebook.com/RUCogSciClub/">
+                            <i class="sm_icon about fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.instagram.com/ru_cogsciclub/">
+                            <i class="sm_icon about fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://rutgerscogsci.slack.com">
+                            <i class="sm_icon about fab fa-slack"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://www.linkedin.com/company/rutgers-cognitive-science-club">
+                            <i class="sm_icon about fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="https://twitter.com/rucogsci">
+                            <i class="sm_icon about fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="mailto:rutgerscognitivescienceclub@gmail.com">
+                            <i class="sm_icon about fas fa-envelope-square"></i>
+                        </a>
+                    </div>
+                </div>
+       
+    </footer>
+</body>
+</html>
